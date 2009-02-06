@@ -20,11 +20,11 @@ recommends:
   MouseX::Getopt: 0
 requires:
   Filter::Util::Call: 0
-  Mouse: 0.14
-  MouseX::Types: 0
+  Mouse: 0.15
+  MouseX::Types: 0.01
   Path::Class: 0
   namespace::clean: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03

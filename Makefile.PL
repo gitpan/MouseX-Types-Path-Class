@@ -2,8 +2,8 @@ use inc::Module::Install;
 name 'MouseX-Types-Path-Class';
 all_from 'lib/MouseX/Types/Path/Class.pm';
 
-requires 'Mouse' => '0.14';
-requires 'MouseX::Types';
+requires 'Mouse' => '0.15';
+requires 'MouseX::Types' => '0.01';
 requires 'namespace::clean';
 requires 'Path::Class';
 
