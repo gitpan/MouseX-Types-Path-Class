@@ -2,7 +2,7 @@ package MouseX::Types::Path::Class;
 
 use strict;
 use warnings;
-use 5.8.1;
+use 5.008001;
 use Path::Class::Dir;
 use Path::Class::File;
 use Mouse::Util::TypeConstraints;
@@ -11,7 +11,7 @@ use namespace::clean;
 
 use MouseX::Types -declare => [qw(Dir File)]; # export Types
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 class_type $_ => { class => $_ }
     for qw( Path::Class::Dir Path::Class::File );
