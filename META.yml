@@ -3,8 +3,9 @@ abstract: 'A Path::Class type library for Mouse'
 author:
   - 'NAKAGAWA Masaki <masaki@cpan.org>'
 build_requires:
+  Any::Moose: 0.05
   Test::More: 0
-  ok: 0
+  Test::UseAllModules: 0
 distribution_type: module
 generated_by: 'Module::Install version 0.79'
 license: perl
@@ -17,14 +18,14 @@ no_index:
     - inc
     - t
 recommends:
-  MouseX::Getopt: 0
+  MouseX::Getopt: 0.05
 requires:
   Filter::Util::Call: 0
-  Mouse: 0.15
+  Mouse: 0.19
+  Mouse::Util::TypeConstraints: 0
   MouseX::Types: 0.01
   Path::Class: 0
-  namespace::clean: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05
